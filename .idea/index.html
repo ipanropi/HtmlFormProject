@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="formdiv">
+  <form id="survey-form">
+    <div class="namediv">
+      <h1 id="title"> Survey Form</h1>
+      <p id="description">This survey asked about the opinion of students on ChatGPT usage in assignment.</p>
+      <label for="firstname" id="name-label">First Name: <input placeholder="First Name" id="name" type="text" required></label>
+      <label for="lastname" id="lastname-label">Last Name: <input placeholder="Last Name" id="lastname" type="text" required></label>
+
+      <label id="email-label">Email: <input placeholder="abc@gmail.com" id="email" type="email" required></label>
+      <label id="number-label">Phone Number: <input placeholder="xxx-xxx-xxxx" id="number" type="number" min="10" max="10"></label>
+
+      <label id="yearlabel">
+        What year are you?
+        <select id="dropdown">
+          <option>Choose one</option>
+          <option>Freshman</option>
+          <option>Sophomore</option>
+          <option>Junior</option>
+          <option>Senior</option>
+        </select>
+      </label>
+
+      <label id="supportlabel">
+        Do you support usage of ChatGPT?
+      </label>
+      <label class="radiobutton">
+        <input name="support" type="radio" value="support">
+        Support
+      </label>
+      <label class="radiobutton">
+        <input name="support" type="radio" value="Neutral">
+        Neutral
+      </label>
+      <label class="radiobutton">
+        <input name="support" type="radio" value="Oppose">
+        Oppose
+      </label>
+
+
+      <label id="opinionlabel">
+        How does ChatGPT helps?
+      </label>
+      <label class="check"><input type="checkbox" value="1"> Helps understanding assignment</label>
+      <label class="check"><input type="checkbox" value="2"> Helps finding answer</label>
+      <label class="check"><input type="checkbox" value="3"> Help with concept</label>
+
+    <label id="commentlabel">
+      Do you have any additional comment?
+      <textarea id="comment" placeholder="Enter your comment here"></textarea>
+    </label>
+
+    <button type="submit" id="submit">Submit</button>
+    </div>
+  </form>
+</div>
+</body>
+</html>

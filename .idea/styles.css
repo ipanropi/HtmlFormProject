@@ -1,0 +1,185 @@
+body{
+  background-color: whitesmoke;
+}
+
+.formdiv{
+  position: relative;
+  width: 50%;
+  margin: 80px auto;
+  padding: 10px;
+  border-width: 0;
+  border-radius: 15px;
+  background-color: #607274;
+}
+
+.namediv{
+  width: 90%;
+  margin: 5px auto;
+  text-align: justify;
+}
+
+#name, #lastname{
+  display: block;
+  background-color: whitesmoke;
+  border-color: whitesmoke;
+  border-width: 0;
+  border-radius: 3px;
+  padding: 15px;
+  width: 100%;
+}
+
+#name-label{
+  font-family: "Segoe UI Semibold";
+  text-align: left;
+  display: inline-block;
+  margin-top:10px;
+  margin-bottom: 15px;
+  margin-left: 30px;
+}
+
+#lastname-label{
+  font-family: "Segoe UI Semibold";
+  text-align: left;
+  display: inline-block;
+  margin: 10px 60px;
+}
+
+#title{
+
+  font-family: "Segoe UI Semibold";
+  margin: 20px;
+  text-align: center;
+}
+
+#description{
+  margin: 20px;
+  text-align: center;
+  font-family: "Segoe UI Semibold";
+  font-size: 14px;
+}
+
+#email, #number{
+  display: block;
+  background-color: whitesmoke;
+  border-color: whitesmoke;
+  border-width: 0;
+  border-radius: 3px;
+  padding: 15px;
+  width: 100%;
+}
+
+#email-label{
+  font-family: "Segoe UI Semibold";
+  width: 60%;
+  display: inline-block;
+  margin-right: 100%;
+  margin-bottom: 15px;
+  margin-left: 30px;
+}
+
+#number-label{
+  font-family: "Segoe UI Semibold";
+  width: 60%;
+  display: inline-block;
+  margin-left: 30px;
+
+  margin-bottom: 15px;
+}
+
+#yearlabel{
+  font-family: "Segoe UI Semibold";
+  width: 60%;
+  display: inline-block;
+  margin-right: 100%;
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+
+#dropdown{
+  display: block;
+  background-color: whitesmoke;
+  border-color: whitesmoke;
+  border-width: 0;
+  border-radius: 3px;
+  padding: 5px;
+  width: 109%;
+}
+
+#supportlabel{
+  font-family: "Segoe UI Semibold";
+  width: 60%;
+  display: inline-block;
+  margin-right: 100%;
+  margin-left: 30px;
+  margin-bottom: 15px;
+
+}
+
+.radiobutton{
+  display: block;
+  margin-left: 30px;
+  width: 50%;
+
+}
+
+#opinionlabel{
+  font-family: "Segoe UI Semibold";
+  margin-top: 15px;
+  width: 60%;
+  display: inline-block;
+  margin-right: 100%;
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+
+.check{
+  display: block;
+  margin-left: 30px;
+}
+
+#commentlabel{
+  font-family: "Segoe UI Semibold";
+  width: 70%;
+  text-align: left;
+  margin-top: 10px;
+  display: inline-block;
+  margin-right: 100%;
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+
+#comment{
+  margin-top: 15px;
+  display: block;
+  background-color: whitesmoke;
+  border-color: whitesmoke;
+  border-width: 0;
+  border-radius: 3px;
+  padding: 15px;
+  width: 86%;
+}
+
+#submit{
+  font-family: "Segoe UI Semibold";
+  text-align: center;
+  background-color: #B2A59B;
+  color: whitesmoke;
+  border-color: #B2A59B;
+  border-width: 0;
+  border-radius: 3px;
+  padding: 10px 45px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+
+#submit:hover{
+  background-color: #FAEED1;
+  color: black;
+}
+
+
+
+
+
+
